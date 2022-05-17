@@ -25,6 +25,7 @@ php artisan octane:install
 
 # RoadRunner
 RoadRunner is powered by the RoadRunner binary, which is built using Go. The first time you start a RoadRunner based Octane server, Octane will offer to download and install the RoadRunner binary for you.
+
 # Serving Your Application Via Nginx
 
 In production environments, you should serve your Octane application behind a traditional web server such as a Nginx or Apache. 
@@ -141,10 +142,28 @@ By default, applications running via Octane generate links prefixed with http://
 'https' => env('OCTANE_HTTPS', false),  
 ``` 
   
-  
-  
 [LINK]https://www.youtube.com/watch?v=2vKnGX-bIu0
-  
-[LINK]https://laravel.com/docs/8.x/octane
-  
+[LINK]https://laravel.com/docs/8.x/octane  
 [LINK]https://chriswhite.is/coding/swoole-vs-roadrunner-for-laravel-octane/#:~:text=Roadrunner%20benefits,for%20most%20people%20to%20deploy. 
+
+____________________________________________________________________________________________________________________________________________
+    
+# What is wrk?
+
+wrk is a modern HTTP benchmarking tool capable of generating significant load when run on a single multi-core CPU. It combines a multithreaded design with scalable event notification systems such as epoll and kqueue.
+> wrk can only run on Unix-like systems. Such as linux, mac, solaris, etc. It can only be compiled on these systems.
+> FOLLOW THE LINK FOR INSTALL THE WRK TO SPEED TEST THE WEBSITE
+[LINK]https://www.bswen.com/2022/01/how-to-install-wrk.html
+
+run tis command to evalute the speed test by wrk:
+```
+wrk https://mydomain.com/IP/ -c 100 -t 4
+```
+>-c is the client request, so we send the 100 request.
+>-t is the task/thread we assgin it 4.
+>its totall 10s speed test wrk command.
+    
+![firefox_99KjgBlCZa](https://user-images.githubusercontent.com/71556060/168750039-f397ed41-6b77-48be-b05d-595fa57ad703.png)
+
+THANK YOU!    
+    
