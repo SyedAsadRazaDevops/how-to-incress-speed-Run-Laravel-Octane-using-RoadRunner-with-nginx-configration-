@@ -143,8 +143,8 @@ By default, applications running via Octane generate links prefixed with http://
   
   
   
-[LINK]:https://www.youtube.com/watch?v=2vKnGX-bIu0
+[LINK]https://www.youtube.com/watch?v=2vKnGX-bIu0
   
-[LINK]:https://laravel.com/docs/8.x/octane
+[LINK]https://laravel.com/docs/8.x/octane
   
-[LINK]: 
+[LINK]https://chriswhite.is/coding/swoole-vs-roadrunner-for-laravel-octane/#:~:text=Roadrunner%20benefits,for%20most%20people%20to%20deploy. 
