@@ -143,7 +143,9 @@ By default, applications running via Octane generate links prefixed with http://
 ``` 
   
 [LINK]https://www.youtube.com/watch?v=2vKnGX-bIu0
-[LINK]https://laravel.com/docs/8.x/octane  
+    
+[LINK]https://laravel.com/docs/8.x/octane 
+    
 [LINK]https://chriswhite.is/coding/swoole-vs-roadrunner-for-laravel-octane/#:~:text=Roadrunner%20benefits,for%20most%20people%20to%20deploy. 
 
 ____________________________________________________________________________________________________________________________________________
@@ -160,7 +162,9 @@ run tis command to evalute the speed test by wrk:
 wrk https://mydomain.com/IP/ -c 100 -t 4
 ```
 >-c is the client request, so we send the 100 request.
+    
 >-t is the task/thread we assgin it 4.
+    
 >its totall 10s speed test wrk command.
     
 ![firefox_99KjgBlCZa](https://user-images.githubusercontent.com/71556060/168750039-f397ed41-6b77-48be-b05d-595fa57ad703.png)
